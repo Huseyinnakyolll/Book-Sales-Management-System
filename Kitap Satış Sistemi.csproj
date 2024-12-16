@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D0B8B60-D7B1-4ADD-BE46-590A1815F429}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kitap_Satış_Sistemi</RootNamespace>
+    <AssemblyName>Kitap Satış Sistemi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=9.0.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector NET 9.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anamenü.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anamenü.Designer.cs">
+      <DependentUpon>anamenü.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bilgi.cs" />
+    <Compile Include="giriş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giriş.Designer.cs">
+      <DependentUpon>giriş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="istatistik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istatistik.Designer.cs">
+      <DependentUpon>istatistik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitap.Designer.cs">
+      <DependentUpon>kitap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="log.Designer.cs">
+      <DependentUpon>log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="müşteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="müşteri.Designer.cs">
+      <DependentUpon>müşteri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sepet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sepet.Designer.cs">
+      <DependentUpon>sepet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sipariş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sipariş.Designer.cs">
+      <DependentUpon>sipariş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yardım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yardım.Designer.cs">
+      <DependentUpon>yardım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yönetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yönetici.Designer.cs">
+      <DependentUpon>yönetici.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="anamenü.resx">
+      <DependentUpon>anamenü.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giriş.resx">
+      <DependentUpon>giriş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istatistik.resx">
+      <DependentUpon>istatistik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitap.resx">
+      <DependentUpon>kitap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="log.resx">
+      <DependentUpon>log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="müşteri.resx">
+      <DependentUpon>müşteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="sepet.resx">
+      <DependentUpon>sepet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sipariş.resx">
+      <DependentUpon>sipariş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yardım.resx">
+      <DependentUpon>yardım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yönetici.resx">
+      <DependentUpon>yönetici.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Double-J-Design-Ravenna-3d-Books.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-8-Users.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aha-Soft-Free-Large-Boss-Admin.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rockettheme-Ecommerce-Basket.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-5-Order-history.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pelfusion-Flat-File-Type-Log.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gartoon-Team-Gartoon-Apps-Gnome-power-statistics.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-2-Help-desk.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-1-Search.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-1-Add.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-1-Import.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-1-Delete.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-view-list-details.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wefunction-Woofunction-Basket-add.32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wefunction-Woofunction-Basket-close.32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-6-Shopping-basket-info.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-6-Shopping-basket-add.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-6-Shopping-basket-refresh.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-6-Shopping-basket-remove.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-6-Shopping-basket.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-6-Shopping-basket-accept.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\662273-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\662273-2001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6632848.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\662273-2002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adsız.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13466923.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-5-Order-history.48%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-5-Order-history.72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-13-Users.72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ebiene-E-Commerce-Shopping-bags.72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-show-property-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-show-property-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-properties-48%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-done-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-document-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-admin-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customers-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aha-Soft-Large-Seo-Search.72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aha-Soft-Large-Seo-Search.64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elegantthemes-Beautiful-Flat-One-Color-Loading.96.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
