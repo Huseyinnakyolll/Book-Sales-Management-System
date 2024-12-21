@@ -133,6 +133,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="giriş.resx">
       <DependentUpon>giriş.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="istatistik.resx">
       <DependentUpon>istatistik.cs</DependentUpon>
@@ -321,6 +322,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Elegantthemes-Beautiful-Flat-One-Color-Loading.96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbaa09e5d8ee0f7e0dfd208398fe9ec2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-pearls-abstract-background-computer-600nw-148016651.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-pearls-abstract-background-computer-600nw-1480166511.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-pearls-abstract-background-computer-600nw-1480166512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,6 +10,6 @@ namespace Kitap_Satış_Sistemi
     {
         public static string kullanıcıtürü = "müşteri";
         public static string kullanıcıid = "0";
-
+        internal static string kullanıcıadı;
     }
 }

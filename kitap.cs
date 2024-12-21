@@ -18,6 +18,8 @@ namespace Kitap_Satış_Sistemi
         public kitap()
         {
             InitializeComponent();
+            this.MaximizeBox = false;  // Pencereyi büyütme butonunu devre dışı bırak
+            this.MinimizeBox = false;  // Pencereyi küçültme butonunu devre dışı bırak
         }
 
         //VERİTABANI NESNELERİ

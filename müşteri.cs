@@ -19,6 +19,8 @@ namespace Kitap_Satış_Sistemi
         public müşteri()
         {
             InitializeComponent();
+            this.MaximizeBox = false;  // Pencereyi büyütme butonunu devre dışı bırak
+            this.MinimizeBox = false;  // Pencereyi küçültme butonunu devre dışı bırak
         }
 
         //VERİTABANI NESNELERİ
@@ -297,9 +299,7 @@ namespace Kitap_Satış_Sistemi
 
         private void button6_Click(object sender, EventArgs e)
         {
-            anamenü frmanenü = new anamenü();
-            frmanenü.Show();
-            this.Hide();
+      
         }
 
        
@@ -346,6 +346,13 @@ namespace Kitap_Satış_Sistemi
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            anamenü frmanenü = new anamenü();
+            frmanenü.Show();
+            this.Hide();
         }
     }
 

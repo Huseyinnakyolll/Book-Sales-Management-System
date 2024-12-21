@@ -18,6 +18,8 @@ namespace Kitap_Satış_Sistemi
         public giriş()
         {
             InitializeComponent();
+            this.MaximizeBox = false;  // Pencereyi büyütme butonunu devre dışı bırak
+            this.MinimizeBox = false;  // Pencereyi küçültme butonunu devre dışı bırak
         }
         //1-FORM TÜRETME
         anamenü anamenü=new anamenü();
@@ -37,49 +39,87 @@ namespace Kitap_Satış_Sistemi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //E-POSTA ŞİFRE KONTROLÜ
-            string sql = "select * from yönetici where eposta='" + textBox1.Text+"' and şifre='"+textBox2.Text+"'";
-            bağlantı.Open();//1-bağlantı aç
-            komut=new MySqlCommand(sql,bağlantı);//2-bağlnatı tanımla
-            veriokuyucu=komut.ExecuteReader();//3-komut çalıştırma
-            if (veriokuyucu.Read())//böyle bir kayıt var mı? //YÖNETİCİ TESTİ
-            {
-                bilgi.kullanıcıtürü = "yönetici";//kullanıcı türü
-                bilgi.kullanıcıid=veriokuyucu.GetValue(0).ToString();//yöneticiid
-                bağlantı.Close();//4-bağlantı kapat
-                //2-FORMLAR ARASI GEÇİŞ
-                anamenü.Show();//form göster
-                this.Hide();//(bu form-->giriş)form gizle  
-            }
-            else //MÜŞTERİ TESTİ
-            {
-
-                sql = "select * from müşteri where eposta='" + textBox1.Text + "' and şifre='" + textBox2.Text + "'";
-                bağlantı.Open();//1-bağlantı aç
-                komut = new MySqlCommand(sql, bağlantı);//2-bağlnatı tanımla
-                veriokuyucu = komut.ExecuteReader();//3-komut çalıştırma
-
-                if (veriokuyucu.Read())//böyle bir kayıt var mı? //MÜŞTERİ TESTİ
+          
+                try
                 {
-                    bilgi.kullanıcıtürü = "müşteri";//kullanıcı türü
-                    bilgi.kullanıcıid = veriokuyucu.GetValue(0).ToString();//müşteriid
-                    bağlantı.Close();//4-bağlantı kapat
-                    //2-FORMLAR ARASI GEÇİŞ
-                    anamenü.Show();//form göster
-                    this.Hide();//(bu form-->giriş)form gizle  
-                }
-                else
-                {
-                    
-                    bağlantı.Close();//4-bağlantı kapat  
-                }
+                    // E-POSTA VE ŞİFRE KONTROLÜ
+                    string sql = "SELECT * FROM yönetici WHERE eposta=@eposta AND şifre=@şifre";
 
-                bağlantı.Close();//4-bağlantı kapat  
-            }
+                    // Bağlantı durumu kontrolü
+                    if (bağlantı.State == ConnectionState.Closed)
+                        bağlantı.Open();
+
+                    using (MySqlCommand komut = new MySqlCommand(sql, bağlantı))
+                    {
+                        komut.Parameters.AddWithValue("@eposta", textBox1.Text);
+                        komut.Parameters.AddWithValue("@şifre", textBox2.Text);
+
+                        using (MySqlDataReader veriokuyucu = komut.ExecuteReader())
+                        {
+                            if (veriokuyucu.Read()) // YÖNETİCİ TESTİ
+                            {
+                                bilgi.kullanıcıtürü = "yönetici";
+                                bilgi.kullanıcıid = veriokuyucu.GetValue(0).ToString(); // yöneticiid
+                            bilgi.kullanıcıadı = veriokuyucu["ad"].ToString(); // Kullanıcı adını kaydet
+                            bağlantı.Close();
+                            bağlantı.Close(); // Bağlantıyı kapat
+
+                                // Formlar arası geçiş
+                                anamenü.Show();
+                                this.Hide();
+                                return;
+                            }
+                        }
+                    }
+
+                    // MÜŞTERİ TESTİ
+                    sql = "SELECT * FROM müşteri WHERE eposta=@eposta AND şifre=@şifre";
+
+                    if (bağlantı.State == ConnectionState.Closed)
+                        bağlantı.Open();
+
+                    using (MySqlCommand komut = new MySqlCommand(sql, bağlantı))
+                    {
+                        komut.Parameters.AddWithValue("@eposta", textBox1.Text);
+                        komut.Parameters.AddWithValue("@şifre", textBox2.Text);
+
+                        using (MySqlDataReader veriokuyucu = komut.ExecuteReader())
+                        {
+                            if (veriokuyucu.Read())
+                            {
+                                bilgi.kullanıcıtürü = "müşteri";
+                                bilgi.kullanıcıid = veriokuyucu.GetValue(0).ToString(); // müşteriid
+                            bilgi.kullanıcıadı = veriokuyucu["ad"].ToString(); // Kullanıcı adını kaydet
+                            bağlantı.Close();
+
+                                // Formlar arası geçiş
+                                anamenü.Show();
+                                this.Hide();
+                                return;
+                            }
+                        }
+                    }
+
+                    // Kullanıcı bulunamadı
+                    MessageBox.Show("E-posta veya şifre hatalı.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    bağlantı.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Bir hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    // Bağlantıyı garanti kapatma
+                    if (bağlantı.State == ConnectionState.Open)
+                        bağlantı.Close();
+                }
+            
+
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void giriş_Load(object sender, EventArgs e)
         {
 
         }

@@ -169,6 +169,15 @@
   <data name="Custom-Icon-Design-Pretty-Office-6-Shopping-basket-info.48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Custom-Icon-Design-Pretty-Office-6-Shopping-basket-info.48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="black-pearls-abstract-background-computer-600nw-148016651" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black-pearls-abstract-background-computer-600nw-148016651.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cbaa09e5d8ee0f7e0dfd208398fe9ec2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cbaa09e5d8ee0f7e0dfd208398fe9ec2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elegantthemes-Beautiful-Flat-One-Color-Loading.96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elegantthemes-Beautiful-Flat-One-Color-Loading.96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Aha-Soft-Free-Large-Boss-Admin.48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Aha-Soft-Free-Large-Boss-Admin.48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -177,6 +186,9 @@
   </data>
   <data name="Custom-Icon-Design-Pretty-Office-6-Shopping-basket.48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Custom-Icon-Design-Pretty-Office-6-Shopping-basket.48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black-pearls-abstract-background-computer-600nw-1480166511" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black-pearls-abstract-background-computer-600nw-1480166511.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ebiene-E-Commerce-Shopping-bags.72" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ebiene-E-Commerce-Shopping-bags.72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,7 +256,7 @@
   <data name="Custom-Icon-Design-Pretty-Office-6-Shopping-basket-remove.48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Custom-Icon-Design-Pretty-Office-6-Shopping-basket-remove.48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Elegantthemes-Beautiful-Flat-One-Color-Loading.96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Elegantthemes-Beautiful-Flat-One-Color-Loading.96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="black-pearls-abstract-background-computer-600nw-1480166512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black-pearls-abstract-background-computer-600nw-1480166512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

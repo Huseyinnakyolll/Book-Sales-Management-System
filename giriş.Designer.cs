@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(giriş));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -69,8 +70,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(224, 29);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "semih.demir@kitapsatissistemi.com.tr";
-         
             // 
             // textBox2
             // 
@@ -81,7 +80,6 @@
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(224, 29);
             this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "123";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
@@ -99,7 +97,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Kitap_Satış_Sistemi.Properties.Resources.images;
-            this.pictureBox1.Location = new System.Drawing.Point(555, 161);
+            this.pictureBox1.Location = new System.Drawing.Point(521, 161);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(224, 227);
             this.pictureBox1.TabIndex = 7;
@@ -122,9 +120,9 @@
             this.analbl2.Font = new System.Drawing.Font("MS Reference Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.analbl2.Location = new System.Drawing.Point(153, 72);
             this.analbl2.Name = "analbl2";
-            this.analbl2.Size = new System.Drawing.Size(493, 34);
+            this.analbl2.Size = new System.Drawing.Size(623, 34);
             this.analbl2.TabIndex = 5;
-            this.analbl2.Text = "Kİtap Satış Sistemine Hoş Geldiniz ";
+            this.analbl2.Text = "Kİtap Bilgi-Satış Otomasyonuna Hoş Geldiniz\r\n";
             // 
             // giriş
             // 
@@ -139,10 +137,12 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "giriş";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "..::Kullanıcı Girişi::..";
+            this.Load += new System.EventHandler(this.giriş_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

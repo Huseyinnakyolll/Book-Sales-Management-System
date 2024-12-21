@@ -15,6 +15,8 @@ namespace Kitap_Satış_Sistemi
         public anamenü()
         {
             InitializeComponent();
+            this.MaximizeBox = false;  // Pencereyi büyütme butonunu devre dışı bırak
+            this.MinimizeBox = false;  // Pencereyi küçültme butonunu devre dışı bırak
         }
 
         //1-FORM TÜRETME
@@ -28,6 +30,8 @@ namespace Kitap_Satış_Sistemi
 
         private void anamenü_Load(object sender, EventArgs e)
         {
+            label12.Text = "Kullanıcı Türü:"+bilgi.kullanıcıtürü;
+            label11.Text = "Kullanıcı Adı: " + bilgi.kullanıcıadı; // Kullanıcı adını Label'a yazdır
         }
 
         public void göster(Form x)
@@ -49,7 +53,7 @@ namespace Kitap_Satış_Sistemi
            
         }
 
-        private void yöneticiİşlemleriToolStripMenuItem_Click(object sender, EventArgs e)
+        private void YöneticiİşlemleriToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //3-FORM GÖSTER
             göster(yönetici);//yönetici işlemleri formunu aç
@@ -98,18 +102,48 @@ namespace Kitap_Satış_Sistemi
             this.Hide();
         }
 
+        private void yöneticiİşlemleriToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Kullanıcı türü kontrolü
+            if (bilgi.kullanıcıtürü == "yönetici")
+            {
+                // Yönetici formunu göster
+                göster(yönetici);
+            }
+            else
+            {
+                // Yetkisiz kullanıcıya mesaj göster
+                MessageBox.Show("Yetkili değilsiniz. Bu işlemi yalnızca yöneticiler gerçekleştirebilir.", "Erişim Engellendi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+      
         private void button3_Click(object sender, EventArgs e)
         {
-            yönetici frmyönetici = new yönetici();
-            frmyönetici.Show();
-            this.Hide();
+            // Kullanıcı türü kontrolü
+            if (bilgi.kullanıcıtürü == "yönetici")
+            {
+                // Yönetici formunu göster
+                yönetici frmyönetici = new yönetici();
+                frmyönetici.Show();
+                this.Hide();
+            }
+            else
+            {
+                // Yetkisiz kullanıcıya mesaj göster
+                MessageBox.Show("Yetkili değilsiniz. Bu işlemi yalnızca yöneticiler gerçekleştirebilir.", "Erişim Engellendi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
+
 
         private void button4_Click(object sender, EventArgs e)
         {
+
             sepet frmsepet = new sepet();
             frmsepet.Show();
             this.Hide();
+
+
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -138,6 +172,16 @@ namespace Kitap_Satış_Sistemi
             yardım frmyardım = new yardım();
             frmyardım.Show();
             this.Hide();    
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

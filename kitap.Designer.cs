@@ -89,7 +89,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 12);
+            this.label1.Location = new System.Drawing.Point(19, 57);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 13);
@@ -98,7 +98,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(84, 10);
+            this.textBox1.Location = new System.Drawing.Point(89, 55);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(178, 20);
@@ -106,7 +106,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(84, 32);
+            this.textBox2.Location = new System.Drawing.Point(89, 77);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(178, 20);
@@ -115,7 +115,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 35);
+            this.label2.Location = new System.Drawing.Point(19, 80);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 13);
@@ -124,7 +124,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(84, 55);
+            this.textBox3.Location = new System.Drawing.Point(89, 100);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(178, 20);
@@ -133,7 +133,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 58);
+            this.label3.Location = new System.Drawing.Point(19, 103);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
@@ -143,7 +143,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(14, 80);
+            this.label4.Location = new System.Drawing.Point(19, 125);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(26, 13);
@@ -184,7 +184,7 @@
             "Tarih",
             "Tarih Romanı",
             "Yemek Kitapları"});
-            this.comboBox1.Location = new System.Drawing.Point(84, 78);
+            this.comboBox1.Location = new System.Drawing.Point(89, 123);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(178, 21);
@@ -192,7 +192,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(84, 102);
+            this.textBox4.Location = new System.Drawing.Point(89, 147);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
@@ -202,7 +202,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(14, 130);
+            this.label5.Location = new System.Drawing.Point(19, 175);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(32, 13);
@@ -338,7 +338,7 @@
             "2022",
             "2023",
             "2024"});
-            this.comboBox2.Location = new System.Drawing.Point(84, 199);
+            this.comboBox2.Location = new System.Drawing.Point(89, 244);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(178, 21);
@@ -347,7 +347,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(14, 203);
+            this.label6.Location = new System.Drawing.Point(19, 248);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(54, 13);
@@ -357,7 +357,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(14, 228);
+            this.label7.Location = new System.Drawing.Point(19, 273);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(32, 13);
@@ -366,7 +366,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(84, 176);
+            this.textBox5.Location = new System.Drawing.Point(89, 221);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(178, 20);
@@ -375,7 +375,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(14, 250);
+            this.label8.Location = new System.Drawing.Point(19, 295);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(67, 13);
@@ -384,7 +384,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(84, 225);
+            this.textBox6.Location = new System.Drawing.Point(89, 270);
             this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(178, 20);
@@ -393,7 +393,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(14, 273);
+            this.label9.Location = new System.Drawing.Point(19, 318);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(32, 13);
@@ -402,7 +402,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(84, 248);
+            this.textBox7.Location = new System.Drawing.Point(89, 293);
             this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(178, 20);
@@ -411,7 +411,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(14, 296);
+            this.label10.Location = new System.Drawing.Point(19, 341);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(35, 13);
@@ -420,7 +420,7 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(84, 271);
+            this.textBox8.Location = new System.Drawing.Point(89, 316);
             this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(178, 20);
@@ -429,7 +429,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(14, 318);
+            this.label11.Location = new System.Drawing.Point(19, 363);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(22, 13);
@@ -482,7 +482,7 @@
             "Urduca",
             "Vietnamca",
             "Yunanca"});
-            this.comboBox3.Location = new System.Drawing.Point(82, 317);
+            this.comboBox3.Location = new System.Drawing.Point(87, 362);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(178, 21);
@@ -491,7 +491,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(14, 343);
+            this.label12.Location = new System.Drawing.Point(19, 388);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(39, 13);
@@ -500,7 +500,7 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(82, 294);
+            this.textBox9.Location = new System.Drawing.Point(87, 339);
             this.textBox9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(178, 20);
@@ -570,7 +570,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(14, 181);
+            this.label14.Location = new System.Drawing.Point(19, 226);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(47, 13);
@@ -579,7 +579,7 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(82, 340);
+            this.textBox10.Location = new System.Drawing.Point(87, 385);
             this.textBox10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(178, 20);
@@ -614,9 +614,9 @@
             // 
             this.button6.BackColor = System.Drawing.Color.SeaGreen;
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.Location = new System.Drawing.Point(286, 398);
+            this.button6.Location = new System.Drawing.Point(2, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(120, 68);
+            this.button6.Size = new System.Drawing.Size(71, 28);
             this.button6.TabIndex = 20;
             this.button6.Text = "Ana Menü";
             this.button6.UseVisualStyleBackColor = false;
@@ -762,7 +762,7 @@
             // 
             this.button4.Image = global::Kitap_Satış_Sistemi.Properties.Resources.Custom_Icon_Design_Flatastic_1_Delete_48;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(175, 429);
+            this.button4.Location = new System.Drawing.Point(180, 474);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(86, 55);
@@ -776,7 +776,7 @@
             // 
             this.button3.Image = global::Kitap_Satış_Sistemi.Properties.Resources.Custom_Icon_Design_Flatastic_1_Import_48;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(82, 429);
+            this.button3.Location = new System.Drawing.Point(87, 474);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(86, 55);
@@ -790,7 +790,7 @@
             // 
             this.button2.Image = global::Kitap_Satış_Sistemi.Properties.Resources.Custom_Icon_Design_Flatastic_1_Add_48;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(175, 369);
+            this.button2.Location = new System.Drawing.Point(180, 414);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(86, 55);
@@ -804,7 +804,7 @@
             // 
             this.button1.Image = global::Kitap_Satış_Sistemi.Properties.Resources.Custom_Icon_Design_Flatastic_1_Search_48;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(82, 369);
+            this.button1.Location = new System.Drawing.Point(87, 414);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(86, 55);

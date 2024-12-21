@@ -48,9 +48,9 @@
             // 
             this.button6.BackColor = System.Drawing.Color.SeaGreen;
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.Location = new System.Drawing.Point(231, 282);
+            this.button6.Location = new System.Drawing.Point(8, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(120, 68);
+            this.button6.Size = new System.Drawing.Size(71, 28);
             this.button6.TabIndex = 21;
             this.button6.Text = "Ana Menü";
             this.button6.UseVisualStyleBackColor = false;
@@ -177,7 +177,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1148, 399);
+            this.ClientSize = new System.Drawing.Size(1148, 348);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.dataGridView1);
