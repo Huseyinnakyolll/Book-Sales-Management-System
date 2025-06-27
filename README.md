@@ -100,4 +100,18 @@ Müşteri geri bildirimleri ve şikayetleri
 ### 💬 suggestionpage
 ![suggestionpage](screenshots/suggestionpage.png)
 
+### 💻 adminpage
+![adminpage](screenshots/adminpage.png)
+
+### 🛒 cartpage
+![cartpage](screenshots/cartpage.png)
+
+### 👤 customerpage
+![customerpage](screenshots/customer.png)
+
+### 📝 orderpage
+![orderpage](screenshots/orderpage.png)
+
+### 📊 statistics
+![statistics](screenshots/statistics.png)
 
