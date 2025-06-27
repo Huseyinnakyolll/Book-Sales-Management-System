@@ -80,3 +80,24 @@ Sepet öğeleri
 Feedback: Customer feedback and complaints
 Müşteri geri bildirimleri ve şikayetleri
 
+
+
+
+## 🖼️ Screenshots / Ekran Görüntüleri
+
+### 🏠 home page
+![home page](screenshots/homepage.png)
+
+### 🔐 login page
+![login page](screenshots/loginpage.png)
+
+### 📚 Books page
+![Books page](screenshots/Bookspage.png)
+
+### 📝 logpage
+![logpage](screenshots/logpage.png)
+
+### 💬 suggestionpage
+![suggestionpage](screenshots/suggestionpage.png)
+
+
