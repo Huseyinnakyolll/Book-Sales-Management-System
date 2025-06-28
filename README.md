@@ -115,3 +115,10 @@ Müşteri geri bildirimleri ve şikayetleri
 ### 📊 statistics
 ![statistics](screenshots/statistics.png)
 
+
+## 🧑‍💻 Developer / Geliştirici
+
+**Hüseyin Akyol**  
+[GitHub Profilim](https://github.com/Huseyinnakyolll)
+
+
