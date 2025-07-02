@@ -1,4 +1,4 @@
-A desktop e-commerce application for basic bookstore management, developed using C# Windows Forms and MySQL database.
+ desktop e-commerce application for basic bookstore management, developed using C# Windows Forms and MySQL database.
 C# Windows Forms ve MySQL veritabanı kullanılarak geliştirilmiş basit bir masaüstü kitap satış otomasyon uygulamasıdır.
 
 📋 Features / Özellikler
@@ -79,46 +79,3 @@ Sepet öğeleri
 
 Feedback: Customer feedback and complaints
 Müşteri geri bildirimleri ve şikayetleri
-
-
-
-
-## 🖼️ Screenshots / Ekran Görüntüleri
-
-### 🏠 home page
-![home page](screenshots/homepage.png)
-
-### 🔐 login page
-![login page](screenshots/loginpage.png)
-
-### 📚 Books page
-![Books page](screenshots/Bookspage.png)
-
-### 📝 logpage
-![logpage](screenshots/logpage.png)
-
-### 💬 suggestionpage
-![suggestionpage](screenshots/suggestionpage.png)
-
-### 💻 adminpage
-![adminpage](screenshots/adminpage.png)
-
-### 🛒 cartpage
-![cartpage](screenshots/cartpage.png)
-
-### 👤 customerpage
-![customerpage](screenshots/customer.png)
-
-### 📝 orderpage
-![orderpage](screenshots/orderpage.png)
-
-### 📊 statistics
-![statistics](screenshots/statistics.png)
-
-
-## 🧑‍💻 Developer / Geliştirici
-
-**Hüseyin Akyol**  
-[GitHub Profilim](https://github.com/Huseyinnakyolll)
-
-
