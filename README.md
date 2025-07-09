@@ -82,15 +82,14 @@ Müşteri geri bildirimleri ve şikayetleri
 
 
 
+## Login Page  
+![LoginPage](screenshots/login.png)
 
 ## Homepage  
 ![Homepage](screenshots/homepage.png)
 
 ## Book Page  
 ![BookPage](screenshots/Bookspage.png)
-
-## Login Page  
-![LoginPage](screenshots/login.png)
 
 ## Register Page  
 ![RegisterPage](screenshots/logpage.png)
