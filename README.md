@@ -1,19 +1,19 @@
  desktop e-commerce application for basic bookstore management, developed using C# Windows Forms and MySQL database.
 C# Windows Forms ve MySQL veritabanı kullanılarak geliştirilmiş basit bir masaüstü kitap satış otomasyon uygulamasıdır.
 
-📋 Features / Özellikler
-🔐 Authentication System / Kimlik Doğrulama Sistemi
+ Features / Özellikler
+ Authentication System / Kimlik Doğrulama Sistemi
 User registration and login with email/password
 E-posta ve şifre ile kullanıcı kaydı ve girişi
 
 Role-based access control (Admin / Customer)
 Rol tabanlı erişim kontrolü (Admin / Müşteri)
 
-👥 User Management / Kullanıcı Yönetimi
+ User Management / Kullanıcı Yönetimi
 Customer registration and profile management
 Müşteri kaydı ve profil yönetimi
 
-📚 Book Management / Kitap Yönetimi
+ Book Management / Kitap Yönetimi
 Complete book inventory system
 Kapsamlı kitap envanter sistemi
 
@@ -39,18 +39,18 @@ Sipariş işleme ve yönetimi
 Sales transaction tracking
 Satış işlemlerinin takibi
 
-💬 Customer Service / Müşteri Hizmetleri
+ Customer Service / Müşteri Hizmetleri
 Complaint management
 Şikayet yönetimi
 
-📊 Admin Features / Admin Özellikleri
+ Admin Features / Admin Özellikleri
 Sales reporting and analytics
 Satış raporlama ve analizleri
 
 Customer management
 Müşteri yönetimi
 
-🛠️ Technologies Used / Kullanılan Teknolojiler
+🛠 Technologies Used / Kullanılan Teknolojiler
 Programming Language / Programlama Dili: C#
 
 Framework: .NET Framework (Windows Forms)
@@ -61,7 +61,7 @@ Architecture / Mimari: Desktop Application / Masaüstü Uygulama
 
 Development Environment / Geliştirme Ortamı: Visual Studio
 
-📁 Database Structure / Veritabanı Yapısı
+ Database Structure / Veritabanı Yapısı
 The application uses the following main database tables:
 Uygulama aşağıdaki ana veritabanı tablolarını kullanır:
 
