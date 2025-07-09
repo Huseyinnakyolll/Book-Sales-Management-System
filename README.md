@@ -79,3 +79,37 @@ Sepet öğeleri
 
 Feedback: Customer feedback and complaints
 Müşteri geri bildirimleri ve şikayetleri
+
+
+
+
+## Homepage  
+![Homepage](screenshots/homepage.png)
+
+## Book Page  
+![BookPage](screenshots/Bookspage.png)
+
+## Login Page  
+![LoginPage](screenshots/login.png)
+
+## Register Page  
+![RegisterPage](screenshots/logpage.png)
+
+## Cart Page  
+![CartPage](screenshots/cartpage.png)
+
+## Order Page  
+![OrderPage](screenshots/orderpage.png)
+
+## Customer Panel  
+![CustomerPanel](screenshots/customer.png)
+
+## Admin Panel  
+![AdminPanel](screenshots/adminpage.png)
+
+## Statistics  
+![Statistics](screenshots/statistics.png)
+
+## Suggestion Page  
+![SuggestionPage](screenshots/suggestionpage.png)
+
