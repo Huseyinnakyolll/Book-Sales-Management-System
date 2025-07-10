@@ -26,7 +26,7 @@ Kategori ve yazar yönetimi
 Stock tracking and management
 Stok takibi ve yönetimi
 
-🛒 Shopping Experience / Alışveriş Deneyimi
+Shopping Experience / Alışveriş Deneyimi
 Interactive shopping cart functionality
 Etkileşimli sepet fonksiyonu
 
@@ -50,7 +50,7 @@ Satış raporlama ve analizleri
 Customer management
 Müşteri yönetimi
 
-🛠 Technologies Used / Kullanılan Teknolojiler
+Technologies Used / Kullanılan Teknolojiler
 Programming Language / Programlama Dili: C#
 
 Framework: .NET Framework (Windows Forms)
